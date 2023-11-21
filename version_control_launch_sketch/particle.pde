@@ -19,4 +19,9 @@ class Particle {
     fill(random(0,255), random(0,255), random(0,255));
     ellipse(position.x, position.y, 10, 10);
   }
+  
+  PVector getPosition(){
+    return position;
+  }
+  
 }
